@@ -1,12 +1,12 @@
 {
   "pins" : [
     {
-      "identity" : "flipperlite",
+      "identity" : "swiftflipper",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/chiragramani/FlipperLite.git",
+      "location" : "https://github.com/chiragramani/SwiftFlipper",
       "state" : {
         "branch" : "main",
-        "revision" : "3e3569797b28327cd7f3e21d4a0f0b5207a7cb06"
+        "revision" : "0752b253a470565582b92dc25889801413199a04"
       }
     }
   ],
