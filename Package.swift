@@ -14,14 +14,13 @@ let package = Package(
             name: "SwiftFlipper",
             targets: ["SwiftFlipper"]),
     ],
-    dependencies: [],
+    dependencies: [
+        .package(url: "https://github.com/chiragramani/FlipperPluginUtils",
+                 branch: "main"),
+    ],
     targets: [
         .target(
             name: "SwiftFlipper",
-            dependencies: ["PluginUtils"]),
-        .target(
-            name: "PluginUtils",
-            dependencies: [],
-            publicHeadersPath: "include"),
+            dependencies: ["FlipperPluginUtils"]),
     ]
 )
